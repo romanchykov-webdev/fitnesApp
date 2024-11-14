@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {View, Text, StyleSheet, Dimensions, FlatList, Image, Animated} from 'react-native';
+import {View, Text, StyleSheet, Dimensions, FlatList, Image, Animated, ActivityIndicator} from 'react-native';
 import {sliderImages} from '../constants'
 import {shadowBox, shadowBoxBlack} from "../hooks";
+import {sliderImagesArray} from "../constants/sliderImg";
 
 const {width, height} = Dimensions.get('window');
 const ITEM_WIDTH = width * 0.8;
@@ -15,9 +16,12 @@ const ImageSlider = () => {
     const scrollX = React.useRef(new Animated.Value(0)).current
 
 
+
+    // console.log('sliderImagesArray:', sliderImagesArray);
     return (
         <Animated.FlatList
-            data={sliderImages}
+            // data={sliderImages}
+            data={sliderImagesArray}
             keyExtractor={(_, index) => index.toString()}
             horizontal
             showsHorizontalScrollIndicator={false}
@@ -27,6 +31,7 @@ const ImageSlider = () => {
                 {useNativeDriver: true}
             )}
             renderItem={({item, index}) => {
+
 
                 const inputRange = [
                     (index - 1) * width,
@@ -49,7 +54,7 @@ const ImageSlider = () => {
                 return (
 
 
-                    <View
+                                <View
                         style={[{width, justifyContent: 'center', alignItems: 'center', paddingVertical: 15}, shadowBoxBlack]}>
                         <View
                             style={{
@@ -68,26 +73,28 @@ const ImageSlider = () => {
                                 elevation: 5,
                             }}
                         >
-                            <Animated.Image
-                                // onLoad={handleImageLoad}
-                                source={item}
-                                style={{
-                                    // borderRadius: '30px',
-                                    width: ITEM_WIDTH * 1.4,
-                                    height: 200,
-                                    resizeMode: 'cover',
-                                    transform: [
+                          <Animated.Image
+                                        source={item}
+                                        // onLoad={() => handleImageLoad(index)}
+                                        style={{
+                                            // borderRadius: '30px',
+                                            width: ITEM_WIDTH * 1.4,
+                                            height: 200,
+                                            resizeMode: 'cover',
+                                            transform: [
 
-                                        {translateX},
-                                        {scale}
+                                                {translateX},
+                                                {scale}
 
-                                    ]
-                                }}
+                                            ]
+                                        }}
 
 
-                            />
+                                    />
                         </View>
                     </View>
+
+
 
                 )
             }}

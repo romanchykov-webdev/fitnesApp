@@ -15,6 +15,10 @@ const RootLayout = () => {
               name='exercises'
               options={{presentation:'fullScreenModal'}}
           />
+          <Stack.Screen
+              name='exercisesDetails'
+              options={{presentation:'modal'}}
+          />
       </Stack>
   );
 };

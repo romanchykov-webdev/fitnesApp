@@ -53,11 +53,11 @@ export const bodyParts=[
 ]
 
 
-export const demoExercises=[
+export const demoExercises= [
     {
         "bodyPart":"back",
         "equipment":"cable",
-        "gifUrl":"https://v2.exercisedb.io/image/lWIos5p-ocaI4P",
+        "gifUrl":"https://v2.exercisedb.io/image/tUlaXV9gl5zhtM",
         "id":"0007",
         "instructions":[
             "Sit on the cable machine with your back straight and feet flat on the ground.",
@@ -76,7 +76,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"body weight",
-        "gifUrl":"https://v2.exercisedb.io/image/j78Pbh7v4zRNgU",
+        "gifUrl":"https://v2.exercisedb.io/image/IZFwKDiVrz0tbL",
         "id":"3293",
         "instructions":[
             "Start by hanging from a pull-up bar with an overhand grip, slightly wider than shoulder-width apart.",
@@ -96,7 +96,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"leverage machine",
-        "gifUrl":"https://v2.exercisedb.io/image/Qqa7sSjB7Jb4EF",
+        "gifUrl":"https://v2.exercisedb.io/image/FM2kNIcP9JwHe5",
         "id":"0015",
         "instructions":[
             "Adjust the machine to your desired weight and height.",
@@ -117,7 +117,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"leverage machine",
-        "gifUrl":"https://v2.exercisedb.io/image/ixwkhuQvwxpL6b",
+        "gifUrl":"https://v2.exercisedb.io/image/VTB1ALMkv7JLdI",
         "id":"0017",
         "instructions":[
             "Adjust the machine to your desired weight and height settings.",
@@ -138,7 +138,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"leverage machine",
-        "gifUrl":"https://v2.exercisedb.io/image/owDgR3Ur5uKLZN",
+        "gifUrl":"https://v2.exercisedb.io/image/TKuFO5bUBiURaf",
         "id":"1431",
         "instructions":[
             "Adjust the machine to your desired assistance level.",
@@ -159,7 +159,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"leverage machine",
-        "gifUrl":"https://v2.exercisedb.io/image/uNmVudzypa-2Xq",
+        "gifUrl":"https://v2.exercisedb.io/image/GQ3woktwKg1S5b",
         "id":"1432",
         "instructions":[
             "Adjust the machine to your desired weight and height settings.",
@@ -180,7 +180,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"stability ball",
-        "gifUrl":"https://v2.exercisedb.io/image/9WmFFLGmj7BJCY",
+        "gifUrl":"https://v2.exercisedb.io/image/2dQODtgfZ3ylmk",
         "id":"1314",
         "instructions":[
             "Place the stability ball on the ground and lie face down on top of it, with your hips resting on the ball and your feet against a wall or other stable surface.",
@@ -199,7 +199,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"body weight",
-        "gifUrl":"https://v2.exercisedb.io/image/RjwAwuZpmuyElh",
+        "gifUrl":"https://v2.exercisedb.io/image/gmNdMEfcC1HUif",
         "id":"3297",
         "instructions":[
             "Start by hanging from a pull-up bar with an overhand grip, hands slightly wider than shoulder-width apart.",
@@ -220,7 +220,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"body weight",
-        "gifUrl":"https://v2.exercisedb.io/image/UaOfUp4FgU-BBV",
+        "gifUrl":"https://v2.exercisedb.io/image/z4PmJByoaGgMZ9",
         "id":"1405",
         "instructions":[
             "Stand tall with your feet shoulder-width apart.",
@@ -241,7 +241,7 @@ export const demoExercises=[
     {
         "bodyPart":"back",
         "equipment":"band",
-        "gifUrl":"https://v2.exercisedb.io/image/A8ByNeNenrJyNU",
+        "gifUrl":"https://v2.exercisedb.io/image/4dXUBqXSgVTvwa",
         "id":"0970",
         "instructions":[
             "Attach the band to a pull-up bar or sturdy anchor point.",
