@@ -5,13 +5,13 @@ import {Image} from 'expo-image';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import {LinearGradient} from "expo-linear-gradient";
 import {useRouter} from "expo-router";
-
+import Animated, {FadeInDown} from 'react-native-reanimated';
 const ExercisesCard = ({item, index}) => {
 
     const router=useRouter();
     // console.log('item',item)
     return (
-        <View>
+        <Animated.View entering={FadeInDown.duration(400).delay(index*200).springify()}>
             <TouchableOpacity
                 onPress={()=>router.push({
                     pathname:'/exercisesDetails',
@@ -43,7 +43,7 @@ const ExercisesCard = ({item, index}) => {
                 </View>
 
             </TouchableOpacity>
-        </View>
+        </Animated.View>
     );
 };
 
